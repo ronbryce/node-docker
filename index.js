@@ -61,7 +61,7 @@ app.use(
 app.use(express.json());
  
 app.get("/api/v1", (req, res) => {
-    res.send("<h2 align='center'>Hi There, Roland Bj!</h2>");
+    res.send("<h2 align='center'>Hi There, Roland!</h2>");
     console.log("yeah it ran");
 });
 
